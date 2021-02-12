@@ -20,11 +20,13 @@ brew "nodebrew"
 brew "pdfpc"
 brew "ghq"
 brew "peco"
+brew "awscli"
 
 cask_args appdir: '/Applications'
 
 tap "adoptopenjdk/openjdk"
 
+cask "cheatsheet"
 cask "alfred"
 cask "dbeaver-community" #jdkの依存がある
 cask "discord"
