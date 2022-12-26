@@ -17,11 +17,11 @@ brew "go"
 brew "goenv"
 brew "node"
 brew "nodebrew"
-brew "pdfpc"
 brew "ghq"
 brew "peco"
 brew "awscli"
 brew "terminal-notifier"
+brew "php"
 
 cask_args appdir: '/Applications'
 
@@ -31,6 +31,7 @@ cask "cheatsheet"
 cask "alfred"
 cask "dbeaver-community" #jdkの依存がある
 cask "discord"
+cask "discord-ptb"
 cask "jetbrains-toolbox"
 cask "gitkraken"
 cask "xmind"
@@ -41,13 +42,15 @@ cask "google-chrome"
 cask "firefox"
 cask "microsoft-edge"
 cask "spotify"
-cask "appcleaner"
 cask "miro"
+cask "bettertouchtool"
+cask "macs-fan-control"
+cask "figma"
+cask "dash"
+cask "docker"
 
 mas "The Unarchiver", id: 425424353
 mas "Unarchiver", id: 1104175604
-mas "TweetDeck", id: 485812721
-mas "GIPHY CAPTURE", id: 668208984
 mas "Bear", id: 1091189122
 mas "LINE", id: 539883307
 mas "Kindle", id: 405399194
