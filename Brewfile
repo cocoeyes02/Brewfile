@@ -3,56 +3,56 @@ tap "homebrew/bundle"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 
-brew "mas"
-brew "git"
-brew "docker-compose"
+brew "awscli"
 brew "curl"
-brew "wget"
-brew "yarn"
-brew "tree"
-brew "jq"
-brew "nkf"
-brew "vim"
+brew "docker-compose"
+brew "ghq"
+brew "git"
 brew "go"
 brew "goenv"
+brew "jq"
+brew "mas"
+brew "nkf"
 brew "node"
 brew "nodebrew"
-brew "ghq"
 brew "peco"
-brew "awscli"
-brew "terminal-notifier"
 brew "php"
+brew "terminal-notifier"
+brew "tree"
+brew "vim"
+brew "wget"
+brew "yarn"
 
 cask_args appdir: '/Applications'
 
 tap "adoptopenjdk/openjdk"
 
-cask "cheatsheet"
 cask "alfred"
+cask "bettertouchtool"
+cask "cheatsheet"
+cask "dash"
 cask "dbeaver-community" #jdkの依存がある
 cask "discord"
 cask "discord-ptb"
-cask "jetbrains-toolbox"
-cask "gitkraken"
-cask "xmind"
-cask "visual-studio-code"
-cask "zoom"
-cask "github"
-cask "google-chrome"
-cask "firefox"
-cask "microsoft-edge"
-cask "spotify"
-cask "miro"
-cask "bettertouchtool"
-cask "macs-fan-control"
-cask "figma"
-cask "dash"
 cask "docker"
+cask "figma"
+cask "firefox"
+cask "github"
+cask "gitkraken"
+cask "google-chrome"
+cask "jetbrains-toolbox"
+cask "macs-fan-control"
+cask "microsoft-edge"
+cask "miro"
+cask "spotify"
+cask "visual-studio-code"
+cask "xmind"
+cask "zoom"
 
+mas "Bear", id: 1091189122
+mas "Kindle", id: 405399194
+mas "LINE", id: 539883307
+mas "Slack", id: 803453959
 mas "The Unarchiver", id: 425424353
 mas "Unarchiver", id: 1104175604
-mas "Bear", id: 1091189122
-mas "LINE", id: 539883307
-mas "Kindle", id: 405399194
-mas "Slack", id: 803453959
 mas "Xcode", id: 497799835
