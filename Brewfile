@@ -1,3 +1,4 @@
+tap "gcenx/wine"
 tap "homebrew/cask"
 tap "homebrew/bundle"
 tap "homebrew/cask-versions"
@@ -16,7 +17,8 @@ brew "nkf"
 brew "node"
 brew "nodebrew"
 brew "peco"
-brew "php"
+brew "phpenv"
+brew "pyenv"
 brew "terminal-notifier"
 brew "tree"
 brew "vim"
@@ -30,7 +32,6 @@ tap "adoptopenjdk/openjdk"
 cask "alfred"
 cask "bettertouchtool"
 cask "cheatsheet"
-cask "dash"
 cask "dbeaver-community" #jdkの依存がある
 cask "discord"
 cask "discord-ptb"
@@ -46,10 +47,10 @@ cask "microsoft-edge"
 cask "miro"
 cask "spotify"
 cask "visual-studio-code"
-cask "xmind"
 cask "zoom"
 
 mas "Bear", id: 1091189122
+mas "Just Focus", id: 1142151959
 mas "Kindle", id: 405399194
 mas "LINE", id: 539883307
 mas "Slack", id: 803453959
