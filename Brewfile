@@ -15,7 +15,7 @@ brew "jq"
 brew "mas"
 brew "nkf"
 brew "node"
-brew "nodebrew"
+brew "nodenv"
 brew "peco"
 brew "phpenv"
 brew "pyenv"
@@ -42,15 +42,18 @@ cask "github"
 cask "gitkraken"
 cask "google-chrome"
 cask "jetbrains-toolbox"
+cask "krisp"
+cask "loupedeck"
 cask "macs-fan-control"
 cask "microsoft-edge"
 cask "miro"
+cask "notion"
 cask "spotify"
+cask "shureplus-motiv"
 cask "visual-studio-code"
 cask "zoom"
 
 mas "Bear", id: 1091189122
-mas "Just Focus", id: 1142151959
 mas "Kindle", id: 405399194
 mas "LINE", id: 539883307
 mas "Slack", id: 803453959
